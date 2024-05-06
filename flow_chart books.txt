@@ -1,0 +1,4 @@
+The flowchart connects customers to transactions in a one-to-many system, as customers can have multiple transactions, 
+but a transaction cannot have more than one customer. It also connects transactions to books in a one-to-one manner, 
+and books to authors in a one-to-many manner. The objective is to maintain a well-organized database with no redundancy. 
+Furthermore, we aim to establish a consistent system with easily understandable data.

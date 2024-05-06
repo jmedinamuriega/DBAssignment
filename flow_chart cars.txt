@@ -1,0 +1,8 @@
+New Vehicle Additions: When a new vehicle is added to the Vehicles table, 
+it won’t initially be linked to any rental agreement until it’s rented out.
+Rental Agreement Updates: If a rental agreement is updated
+ (e.g., extended rental period), the corresponding entry in the Rental_Agreements table is updated. 
+The one-to-one relationship remains intact.
+Vehicle Availability Checks: To check if a vehicle is available, 
+you can check if there’s an active agreement for the vehicle in the Rental_Agreements table.
+ If there’s no active agreement, the vehicle is available.
